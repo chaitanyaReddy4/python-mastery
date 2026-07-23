@@ -2,8 +2,8 @@
 
 name=input("enter student name:")
 branch=input("enter branch:")
-year=input("enter year:")  
-cgpa=input("enter CGPA:")
+year=int(input("enter year:"))
+cgpa=float(input("enter CGPA:"))
 
 #display the student details
 
